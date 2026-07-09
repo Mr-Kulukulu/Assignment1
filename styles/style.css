@@ -30,7 +30,6 @@ ul li a {
   color: #575757;
 }
 .common-container {
-
   max-width: 1200px;
   margin: auto;
 }
@@ -67,6 +66,7 @@ ul li a {
 /* hero section end*/
 
 /*Speakers Section start*/
+
 .card-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -74,19 +74,19 @@ ul li a {
 
   margin-top: 50px;
 }
-.card img {
+.speakers__card img {
   border-radius: 3px;
   width: 100%;
 }
-.card {
+.speakers__card {
   display: grid;
 
-border: 1px solid rgb(219, 219, 219);
+  border: 1px solid rgb(219, 219, 219);
   gap: 10px;
-
+  padding-bottom: 12px;
   border-radius: 4px;
 }
-.card p,
+.speakers__card p,
 h3 {
   padding: 0 10px;
 }
@@ -97,7 +97,9 @@ h3 {
   color: #575757;
   margin-bottom: 10px;
 }
-.meet-speakers-heading{
-margin-top: 30px;
+.speakers_heading {
+  margin-top: 30px;
   text-align: center;
 }
+
+/*Speakers Section end*/
