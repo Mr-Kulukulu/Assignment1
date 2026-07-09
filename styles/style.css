@@ -1,4 +1,28 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+}
+   
+.common-button {
+  padding: 13px 20px;
+  border-style: none;
+  background-color: #1d4ed8;
+  color: white;
+  border-radius: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px 0;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+ul li a {
+  text-decoration: none;
+  color: #575757;
 }
