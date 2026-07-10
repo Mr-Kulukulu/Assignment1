@@ -20,7 +20,7 @@ nav {
   align-items: center;
   margin: 15px 0;
 }
-ul {
+nav ul {
   display: flex;
   list-style: none;
   gap: 20px;
@@ -103,3 +103,180 @@ h3 {
 }
 
 /*Speakers Section end*/
+
+/* prcing card section start */
+
+.price-card-header {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.pricing-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  padding: 20px 30px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.card-pro {
+  background-color: #0d1b2a;
+}
+
+
+.plan-name {
+  color: #111827;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.pro-name {
+  color: #93c5fd;
+}
+
+.plan-price {
+  color: #111827;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.plan-duration {
+  color: #6b7280;
+  font-size: 16px;
+}
+
+
+.card-pro .plan-price {
+  color: #ffffff;
+}
+
+.card-pro .plan-duration {
+  color: #d1d5db;
+}
+
+/* Features */
+
+.card-features {
+  margin-top: 10px;
+}
+
+.card-features ul {
+  display: grid;
+  gap: 15px;
+  padding-left: 20px;
+}
+.card-features li::marker {
+  color: #2563eb;
+}
+.card-standard-features,
+.card-team-features {
+  color: #333333;
+}
+
+.card-pro-features {
+  color: #ffffff;
+}
+
+/* Buttons */
+
+.pricing-button {
+  width: 100%;
+  padding: 14px;
+  margin-top: auto;
+
+  border-radius: 10px;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.standard-price-button {
+  background-color: #ffffff;
+  color: #2563eb;
+  border: 1px solid #2563eb;
+}
+
+.pro-price-button {
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+}
+
+.team-price-button {
+  background-color: #ffffff;
+  color: #0d1b2a;
+  border: 1px solid #0d1b2a;
+}
+/* Schedule Section */
+
+.schedule-section {
+    margin: 80px auto;
+}
+
+.schedule-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.schedule-header h2 {
+    font-size: 36px;
+    color: #111827;
+    margin-bottom: 12px;
+}
+
+.schedule-header p {
+    color: #6b7280;
+    font-size: 18px;
+}
+
+.schedule-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.schedule-card {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.schedule-day {
+    display: inline-block;
+    background-color: #dbeafe;
+    color: #2563eb;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+}
+
+.schedule-title {
+    font-size: 24px;
+    color: #111827;
+    margin-bottom: 20px;
+}
+
+.schedule-list {
+    display: grid;
+    gap: 15px;
+    padding-left: 20px;
+    color: #374151;
+}
+
+.schedule-list li::marker {
+    color: #2563eb;
+}
