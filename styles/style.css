@@ -278,27 +278,59 @@ h3 {
 .schedule-list li::marker {
   color: #2563eb;
 }
+/* footer start */
 footer {
   margin-top: 80px;
-  
-  padding: 25px 0;
+  padding: 40px 0;
   background-color: #0d1b2a;
 }
 
 .footer-container {
   display: flex;
+  flex-direction: column;
+}
+
+.footer-top {
+  display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 20px;
 }
-.footer-container p {
-  color: #ffffff;
+
+.footer-logo {
+  height: 45px;
+  width: auto;
 }
-.footer-links {
+
+.footer-social {
   display: flex;
-  gap: 24px;
+  gap: 20px;
 }
-.footer-links a {
+
+.footer-social a {
+  color: #ffffff;
+  font-size: 20px;
   text-decoration: none;
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.footer-container hr {
+  width: 100%;
+  border: none;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer-bottom p {
   color: #ffffff;
   font-size: 14px;
+  margin: 0;
 }
