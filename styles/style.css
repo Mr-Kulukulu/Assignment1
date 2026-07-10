@@ -131,7 +131,6 @@ h3 {
   background-color: #0d1b2a;
 }
 
-
 .plan-name {
   color: #111827;
   font-size: 14px;
@@ -153,7 +152,6 @@ h3 {
   color: #6b7280;
   font-size: 16px;
 }
-
 
 .card-pro .plan-price {
   color: #ffffff;
@@ -221,62 +219,86 @@ h3 {
 /* Schedule Section */
 
 .schedule-section {
-    margin: 80px auto;
+  margin: 80px auto;
 }
 
 .schedule-header {
-    text-align: center;
-    margin-bottom: 50px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .schedule-header h2 {
-    font-size: 36px;
-    color: #111827;
-    margin-bottom: 12px;
+  font-size: 36px;
+  color: #111827;
+  margin-bottom: 12px;
 }
 
 .schedule-header p {
-    color: #6b7280;
-    font-size: 18px;
+  color: #6b7280;
+  font-size: 18px;
 }
 
 .schedule-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
 }
 
 .schedule-card {
-    background-color: #ffffff;
-    border: 1px solid #e5e7eb;
-    border-radius: 12px;
-    padding: 25px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 25px;
 }
 
 .schedule-day {
-    display: inline-block;
-    background-color: #dbeafe;
-    color: #2563eb;
-    font-size: 14px;
-    font-weight: 600;
-    padding: 6px 12px;
-    border-radius: 20px;
-    margin-bottom: 16px;
+  display: inline-block;
+  background-color: #dbeafe;
+  color: #2563eb;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin-bottom: 16px;
 }
 
 .schedule-title {
-    font-size: 24px;
-    color: #111827;
-    margin-bottom: 20px;
+  font-size: 24px;
+  color: #111827;
+  margin-bottom: 20px;
 }
 
 .schedule-list {
-    display: grid;
-    gap: 15px;
-    padding-left: 20px;
-    color: #374151;
+  display: grid;
+  gap: 15px;
+  padding-left: 20px;
+  color: #374151;
 }
 
 .schedule-list li::marker {
-    color: #2563eb;
+  color: #2563eb;
+}
+footer {
+  margin-top: 80px;
+  
+  padding: 25px 0;
+  background-color: #0d1b2a;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-container p {
+  color: #ffffff;
+}
+.footer-links {
+  display: flex;
+  gap: 24px;
+}
+.footer-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
 }
